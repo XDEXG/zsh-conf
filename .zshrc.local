@@ -1,0 +1,9 @@
+
+# add   source ~/zsh-conf/.zshrc.local  in .zshrc,  then source it.
+
+alias c="cd"
+alias cl="clear"
+alias vimzsh="vim ~/.zshrc"
+
+mkcd() { mkdir -p "$1"; cd "$1";}
+cdls() { cd "$1"; ls;}
